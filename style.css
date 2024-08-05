@@ -1,0 +1,153 @@
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    font-family: 'Inter';
+    scroll-behavior: smooth;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .d-flex-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 89;
+    width: 100%;
+    height: 100vh;
+    gap: 2vw;
+    justify-content: space-between;
+    background-color: #000;
+    font-size: 2rem;
+  }
+  .loader h4{
+    opacity:0
+  }
+
+  .fixed-p {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+   z-index: 82;
+  
+   
+  }
+  
+  .flex-p-content {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+  
+  .cntr-p {
+    width: 100%;
+    white-space: nowrap; 
+    text-align: center;
+  
+    font-size: 1.2rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+
+  }
+ 
+
+  .cntr-p h4{
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    z-index: 999;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .section {
+    width: 100vw;
+    height: 100vh;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 18;
+  
+  }
+  
+  .heading-text {
+    font-size: 14rem;
+  }
+  
+  #one-text {
+    position: absolute;
+    bottom:-37%;
+    z-index: 99999;
+  }
+  
+  .section-img {
+    position: relative;
+    margin-left: 35%;
+    width: 30%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 42%;
+    background-repeat: no-repeat;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  #img-one {
+    background-image: url(one.jpg);
+  }
+  
+  #img-two {
+    background-image: url(two.jpg);
+  }
+  
+  #img-three {
+    background-image: url(three.jpg);
+  }
+  #img-four {
+    background-image: url(four.jpg);
+  }
+  
+  #img-five {
+    background-image: url(five.jpg);
+  }
+  #img-six {
+    background-image: url(six.jpg);
+  }
+  #img-seven {
+    background-image: url(seven.jpg);
+  }
